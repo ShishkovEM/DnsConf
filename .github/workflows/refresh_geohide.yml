@@ -2,7 +2,7 @@ name: Refresh compact GeoHide EU hosts
 
 on:
   schedule:
-    - cron: '15 0 * * *'
+    - cron: '0 23 * * *' # 03:00 Samara (23:00 UTC)
   workflow_dispatch:
 
 permissions:
