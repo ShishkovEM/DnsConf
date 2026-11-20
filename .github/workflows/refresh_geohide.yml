@@ -1,0 +1,32 @@
+name: Refresh compact GeoHide EU hosts
+
+on:
+  schedule:
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-geohide
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Generate and validate compact rewrites
+        run: |
+          python3 -B scripts/test_compact_geohide.py
+          python3 -B scripts/compact_geohide.py
+      - name: Save changed snapshot
+        run: |
+          if ! git diff --quiet -- hosts/geohide-eu.hosts; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add -- hosts/geohide-eu.hosts
+            git commit -m 'Refresh compact GeoHide EU hosts'
+            git push
+          fi

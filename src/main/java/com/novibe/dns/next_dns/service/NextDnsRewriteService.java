@@ -1,6 +1,7 @@
 package com.novibe.dns.next_dns.service;
 
 import com.novibe.common.base_structures.BypassRoute;
+import com.novibe.common.exception.ProfileSetupException;
 import com.novibe.common.service.ExcludeRedirectCheckService;
 import com.novibe.common.util.Log;
 import com.novibe.dns.next_dns.http.NextDnsRewriteClient;
@@ -11,8 +12,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import static java.util.Objects.nonNull;
 
@@ -66,6 +69,51 @@ public class NextDnsRewriteService {
     public List<RewriteDto> getExistingRewrites() {
         Log.io("Fetching existing rewrites from NextDNS");
         return nextDnsRewriteClient.fetchRewrites();
+    }
+
+    public List<CreateRewriteDto> prepareCompact(Map<String, CreateRewriteDto> active, Set<CreateRewriteDto> retired,
+                                                Set<String> managedNames) {
+        var existing = getExistingRewrites();
+        var missing = new HashMap<>(active);
+        List<String> obsolete = new ArrayList<>();
+        Map<String, Set<String>> custom = new HashMap<>();
+        for (var rule : existing) {
+            var pair = new CreateRewriteDto(rule.name(), rule.content());
+            if (pair.equals(active.get(rule.name()))) {
+                missing.remove(rule.name());
+            } else if (retired.contains(pair)) {
+                obsolete.add(rule.id());
+            } else {
+                custom.computeIfAbsent(rule.name(), ignored -> new HashSet<>()).add(rule.content());
+            }
+        }
+
+        // A more specific manual rewrite can mask an inherited GeoHide rule.
+        for (String name : managedNames) {
+            String domain = name;
+            String override = null;
+            while (true) {
+                if (override == null && custom.containsKey(domain)) override = domain;
+                var root = active.get(domain);
+                if (root != null) {
+                    if (override != null && !custom.get(override).equals(Set.of(root.content()))) {
+                        throw new ProfileSetupException("Conflicting manual rewrite: " + override);
+                    }
+                    break;
+                }
+                int dot = domain.indexOf('.');
+                if (dot < 0) throw new ProfileSetupException("Missing GeoHide parent for " + name);
+                domain = domain.substring(dot + 1);
+            }
+        }
+        int projected = existing.size() - obsolete.size() + missing.size();
+        if (projected > 500) {
+            throw new ProfileSetupException("GeoHide and retained rewrites need " + projected + " slots (limit 500)");
+        }
+        Log.io("GeoHide: %d existing, %d to retire, %d to add, %d after sync"
+                .formatted(existing.size(), obsolete.size(), missing.size(), projected));
+        if (!obsolete.isEmpty()) nextDnsRewriteClient.deleteRewritesByIds(obsolete);
+        return List.copyOf(missing.values());
     }
 
     public void saveRewrites(List<CreateRewriteDto> createRewriteDtos) {

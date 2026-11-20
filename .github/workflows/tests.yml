@@ -23,3 +23,6 @@ jobs:
 
       - name: Run tests
         run: mvn -B test
+
+      - name: Test GeoHide compaction
+        run: python3 -B scripts/test_compact_geohide.py

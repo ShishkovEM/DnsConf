@@ -1,0 +1,810 @@
+# Source: https://raw.githubusercontent.com/Internet-Helper/GeoHideDNS/refs/heads/main/hosts/eu/hosts
+# SHA-256: b68e52489692135a59663fc59523645b4ef513fdf5a73379dabbe39f1fde588d
+# NextDNS rewrites (one common upstream IP per subtree)
+37.221.93.128 37signals.com # covers www.37signals.com
+45.13.237.213 aave.com # covers www.aave.com
+5.175.161.40 access.broadcom.com
+2.27.118.34 accounts.supercell.com
+37.221.93.141 adobe.io # covers www.adobe.io
+45.13.237.213 affinity.studio # covers www.affinity.studio
+5.175.161.40 ai.google.dev
+45.13.237.213 aicode.googleapis.com
+45.13.237.213 aida.googleapis.com
+5.175.161.40 aisandbox-pa.googleapis.com
+45.13.237.213 aistudio.google.com
+37.221.93.128 aitestkitchen.withgoogle.com
+45.13.237.213 alkalicore-pa.clients6.google.com
+37.221.93.128 alkalimakersuite-pa.clients6.google.com
+45.13.237.213 amd.com # covers www.amd.com
+45.13.237.213 analog.com # covers www.analog.com
+37.221.93.141 anthropic.com # covers a-api.anthropic.com a-cdn.anthropic.com api.anthropic.com api.console.anthropic.com assets-proxy.anthropic.com auth.anthropic.com console.anthropic.com s-cdn.anthropic.com statsig.anthropic.com status.anthropic.com support.anthropic.com www.anthropic.com
+45.13.237.213 antigravity-pa.googleapis.com
+37.221.93.141 antigravity-unleash.goog # covers www.antigravity-unleash.goog
+45.13.237.213 antigravity.google # covers www.antigravity.google
+5.175.161.3 antigravity.googleapis.com
+45.13.237.213 api-sg-central.trae.ai
+45.13.237.213 api.cdnlibs.org
+37.221.93.141 api.fitbit.com
+45.13.237.213 api.groq.com
+5.175.161.3 api.home-connect.com
+5.175.161.3 api.imgur.com
+45.13.237.213 api.jetbrains.ai
+5.175.161.3 api.radarr.video
+2.27.118.34 api.stumbleguys.com
+5.175.161.40 api.trae.ai
+45.13.237.213 api.workos.com
+5.175.161.3 api16-normal-alisg.mchost.guru
+45.13.237.213 api2.cursor.sh # covers agentn.api2.cursor.sh agentn.global.api2.cursor.sh
+37.221.93.128 api3.cursor.sh # covers agentn.api3.cursor.sh agentn.global.api3.cursor.sh
+5.175.161.3 api4.cursor.sh # covers agentn.api4.cursor.sh agentn.global.api4.cursor.sh
+45.13.237.213 api5.cursor.sh # covers agentn.api5.cursor.sh agentn.global.api5.cursor.sh
+5.175.161.3 apis.google.com
+45.13.237.213 app.zerossl.com
+45.13.237.213 appcatalyst.pa.googleapis.com
+45.13.237.213 arduino.cc # covers www.arduino.cc
+45.13.237.213 arkoselabs.com # covers www.arkoselabs.com
+45.13.237.213 arrow.com # covers www.arrow.com
+5.175.161.40 assistant-s3-pa.googleapis.com
+45.13.237.213 astockcdn.net # covers www.astockcdn.net
+45.13.237.213 atlassian.com # covers www.atlassian.com
+5.175.161.40 audacy.com # covers www.audacy.com
+37.221.93.128 auth.xboxlive.com # covers xsts.auth.xboxlive.com
+37.221.93.128 authenticate.cursor.sh
+5.175.161.40 authenticator.cursor.sh
+45.13.237.213 autocad.com # covers www.autocad.com
+5.175.161.40 autodesk.ae # covers www.autodesk.ae
+5.175.161.3 autodesk.be # covers www.autodesk.be
+45.13.237.213 autodesk.com # covers www.autodesk.com
+45.13.237.213 autodesk.eu # covers www.autodesk.eu
+45.13.237.213 autodesk.net # covers www.autodesk.net
+45.13.237.213 autodesk360.com # covers www.autodesk360.com
+5.175.161.40 avast.com # covers www.avast.com
+37.221.93.128 avast.ru # covers www.avast.ru
+45.13.237.213 aybest.xyz # covers www.aybest.xyz
+45.13.237.213 badoo.app
+5.175.161.40 badoo.com # covers consent.badoo.com www.badoo.com
+45.13.237.213 badoocdn.com # covers eu1.ecdn2.badoocdn.com
+37.221.93.141 bard.google.com
+37.221.93.141 basecamp.com # covers www.basecamp.com
+45.13.237.213 basecampapi.com # covers www.basecampapi.com
+45.13.237.213 behance.net # covers www.behance.net
+45.13.237.213 bestbuy.com # covers streams.bestbuy.com www.bestbuy.com
+5.175.161.3 bike-components.de # covers www.bike-components.de
+37.221.93.128 bike24.com # covers www.bike24.com
+45.13.237.213 blogs.sap.com
+5.175.161.3 brave.com # covers www.brave.com
+45.13.237.213 buf.build # covers www.buf.build
+45.13.237.213 build.nvidia.com
+45.13.237.213 builds.parsec.app
+45.13.237.213 bumble.com # covers www.bumble.com
+45.13.237.213 buymeacoffee.com # covers www.buymeacoffee.com
+45.13.237.213 camelai.com # covers stream.camelai.com www.camelai.com
+5.175.161.3 canva-apps.com # covers www.canva-apps.com
+37.221.93.128 canva.com # covers content-management-files.canva.com static.canva.com www.canva.com
+5.175.161.40 canva.dev # covers www.canva.dev
+37.221.93.141 capcut.com # covers www.capcut.com
+2.27.118.34 cdn.id.supercell.com
+37.221.93.141 cerebras.ai # covers api.cerebras.ai www.cerebras.ai
+45.13.237.213 cgtrader.com # covers www.cgtrader.com
+5.175.161.40 chaos.com # covers accounts.chaos.com my.chaos.com ssooauth.chaos.com www.chaos.com
+45.13.237.213 chatgpt.com # covers ab.chatgpt.com operator.chatgpt.com webrtc.chatgpt.com www.chatgpt.com
+45.13.237.213 chatgpt.site # covers www.chatgpt.site
+37.221.93.141 chess.com # covers assets-configurator.chess.com www.chess.com
+37.221.93.141 cici.com # covers www.cici.com
+37.221.93.128 ciscobinary.openh264.org
+2.27.118.34 clashofclans.inbox.supercell.com
+45.13.237.213 claude.ai # covers api.claude.ai downloads.claude.ai platform.claude.ai www.claude.ai
+45.13.237.213 claude.com # covers api.claude.com platform.claude.com www.claude.com
+5.175.161.40 claudemcpclient.com # covers www.claudemcpclient.com
+5.175.161.3 claudeusercontent.com # covers www.claudeusercontent.com
+45.13.237.213 clickup.com # covers www.clickup.com
+37.221.93.141 cms-images.mmst.eu
+45.13.237.213 codeium.com # covers inference.codeium.com server.codeium.com unleash.codeium.com web-backend.codeium.com windsurf-stable.codeium.com windsurf-telemetry.codeium.com www.codeium.com
+45.13.237.213 codeiumdata.com
+37.221.93.128 community.sap.com
+5.175.161.3 consent.trustarc.com
+45.13.237.213 console.groq.com
+5.175.161.3 console.neon.tech
+45.13.237.213 controlplane.tailscale.com
+45.13.237.213 copilot.microsoft.com
+5.175.161.40 coreweave.com # covers www.coreweave.com
+45.13.237.213 corsair.com # covers www.corsair.com
+45.13.237.213 crunchyroll.com # covers www.crunchyroll.com
+5.175.161.3 cummins.com # covers www.cummins.com
+37.221.93.141 cursor-cdn.com # covers www.cursor-cdn.com
+45.13.237.213 cursor.com # covers downloads.cursor.com origin.cursor.com www.cursor.com
+45.13.237.213 cursorvm.com # covers www.cursorvm.com
+45.13.237.213 daily-cloudcode-pa.googleapis.com
+37.221.93.128 datastudio.google.com
+45.13.237.213 deepl.app # covers www.deepl.app
+5.175.161.3 deepl.com # covers api-free.deepl.com api.deepl.com auth.deepl.com backend.deepl.com checkout.www.deepl.com clearance.deepl.com community-auth.deepl.com developers.deepl.com dict-audio.deepl.com dict.deepl.com errortracking.deepl.com experimentation-grpc.deepl.com experimentation.deepl.com gtm.deepl.com home.deepl.com hs.deepl.com internal.deepl.com ita-free.app.deepl.com ita-free.www.deepl.com jobs.deepl.com login-wall.deepl.com oneshot-free.www.deepl.com ott.deepl.com s.deepl.com shield.deepl.com sl.deepl.com static.deepl.com support.deepl.com w.deepl.com write-free.www.deepl.com www.deepl.com
+45.13.237.213 deepmind.com
+37.221.93.141 deepmind.google
+37.221.93.128 deezer.com # covers payment.deezer.com www.deezer.com
+45.13.237.213 dell.com # covers dds.dell.com i.dell.com nexus.dell.com www.dell.com
+5.175.161.3 dellcdn.com # covers afcs.dellcdn.com www.dellcdn.com
+5.175.161.3 deniko.xyz # covers www.deniko.xyz
+45.13.237.213 designer.microsoft.com
+45.13.237.213 designify.com # covers www.designify.com
+37.221.93.128 developer.nvidia.com
+37.221.93.141 developerprofiles-pa.googleapis.com
+5.175.161.40 digikey.com # covers www.digikey.com
+37.221.93.128 digikeyassets.com # covers www.digikeyassets.com
+45.13.237.213 dl.teamviewer.com
+45.13.237.213 dnsspeedtest.online # covers www.dnsspeedtest.online
+159.194.200.33 dnstest.geohide.ru
+45.13.237.213 dola.com # covers www.dola.com
+45.13.237.213 download.teamviewer.com
+5.175.161.40 download.todesktop.com
+45.13.237.213 dr.miromind.ai
+5.175.161.3 dtm8.dinamicagenerale.com
+45.13.237.213 dyson.com # covers www.dyson.com
+45.13.237.213 dyson.de # covers www.dyson.de
+5.175.161.3 dyson.se # covers www.dyson.se
+45.13.237.213 ecosia.org # covers www.ecosia.org
+5.175.161.40 ecs.office.com
+45.13.237.213 edgeservices.bing.com
+5.175.161.3 efsanetv.xyz # covers www.efsanetv.xyz
+45.13.237.213 elevenlabs.io # covers api.elevenlabs.io api.us.elevenlabs.io eleven-public-cdn.elevenlabs.io help.elevenlabs.io payload.elevenlabs.io try.elevenlabs.io www.elevenlabs.io
+45.13.237.213 elevenmusic.io # covers www.elevenmusic.io
+45.13.237.213 elevenreader.io
+45.13.237.213 elgato.com # covers www.elgato.com
+45.13.237.213 elmastvnet.xyz # covers www.elmastvnet.xyz
+37.221.93.128 eneba.com # covers www.eneba.com
+45.13.237.213 enscape3d.com
+5.175.161.40 etsy.com # covers www.etsy.com
+37.221.93.141 eu.posthog.com
+45.13.237.213 euro.com.pl # covers www.euro.com.pl
+5.175.161.3 evike.com # covers www.evike.com
+5.175.161.40 evs.blue.mongodb.co
+45.13.237.213 eyyo.xyz # covers www.eyyo.xyz
+5.175.161.40 f00.esfr.pl
+37.221.93.128 files-s2pb.pbsync.com
+45.13.237.213 files.manuscdn.com
+45.13.237.213 fitbit-pa.googleapis.com
+45.13.237.213 fitbit.google.com
+45.13.237.213 fitbitvestibuleshim-pa.googleapis.com
+5.175.161.3 flow.google # covers www.flow.google
+45.13.237.213 flow.google.com # covers www.flow.google.com
+45.13.237.213 flowmusic.app # covers www.flowmusic.app
+37.221.93.141 fmhy.lol # covers guides.fmhy.lol www.fmhy.lol
+45.13.237.213 fmhy.net # covers a-lemmy.fmhy.net api.fmhy.net cat.fmhy.net dynmap.fmhy.net i.fmhy.net lemmy.fmhy.net m-lemmy.fmhy.net old-lemmy.fmhy.net old.fmhy.net old.lemmy.fmhy.net op.fmhy.net p-lemmy.fmhy.net paste.fmhy.net pastes.fmhy.net redlib.fmhy.net searx.fmhy.net stats.fmhy.net status.fmhy.net sub.whoogle.fmhy.net ui.fmhy.net whoogle.fmhy.net www.fmhy.net
+45.13.237.213 formula1.com # covers www.formula1.com
+5.175.161.40 framer.com # covers www.framer.com
+37.221.93.128 freakhosting.com # covers www.freakhosting.com
+37.221.93.141 g2a.com # covers www.g2a.com
+2.27.118.34 game-assets.brawlstarsgame.com
+2.27.118.34 game-assets.clashofclans.com
+2.27.118.34 game-assets.clashroyaleapp.com
+2.27.118.34 game.boombeachgame.com
+62.233.36.83 game.brawlstarsgame.com
+81.17.20.82 game.clashroyaleapp.com
+2.27.118.34 game.mocogame.com
+81.17.20.84 game.squadbustersgame.com
+5.175.161.40 game8.co # covers www.game8.co
+5.175.161.40 game8.co.jp # covers www.game8.co.jp
+45.13.237.213 game8.jp # covers www.game8.jp
+81.17.20.86 gamea.clashofclans.com
+45.13.237.213 gamestop.com # covers www.gamestop.com
+45.13.237.213 geller-pa.googleapis.com
+37.221.93.128 gemini.google
+45.13.237.213 gemini.google.com
+45.13.237.213 geminiweb-pa.clients.google.com
+37.221.93.141 geminiweb-pa.clients6.google.com
+5.175.161.3 generativeai.google
+45.13.237.213 generativelanguage.googleapis.com
+45.13.237.213 genspark.ai # covers www.genspark.ai
+5.175.161.3 geolocation.onetrust.com
+45.13.237.213 gql.twitch.tv
+37.221.93.128 grok.com # covers assets.grok.com www.grok.com
+45.13.237.213 grok.x.com
+37.221.93.128 gssv-play-prod.xboxlive.com # covers xgpuweb.gssv-play-prod.xboxlive.com xgpuwebf2p.gssv-play-prod.xboxlive.com
+45.13.237.213 guidedhacking.com # covers www.guidedhacking.com
+5.175.161.40 guilded.gg # covers www.guilded.gg
+37.221.93.128 hapi.hentaicdn.org
+37.221.93.141 hume.ai # covers www.hume.ai
+45.13.237.213 ikea.com # covers www.ikea.com
+37.221.93.141 images.contentstack.io
+45.13.237.213 img.modivo.cloud
+5.175.161.3 inceptionlabs.ai # covers www.inceptionlabs.ai
+5.175.161.40 indeed.com # covers www.indeed.com
+37.221.93.141 intel.com # covers www.intel.com
+5.175.161.3 intel.de # covers www.intel.de
+45.13.237.213 intel.se # covers www.intel.se
+45.13.237.213 iperf3serverlist.net # covers www.iperf3serverlist.net
+5.175.161.3 jetbrains.com # covers account.jetbrains.com datalore.jetbrains.com download.jetbrains.com plugins.jetbrains.com www.jetbrains.com
+45.13.237.213 jetbrains.space # covers www.jetbrains.space
+45.13.237.213 jules.google
+37.221.93.141 jules.google.com
+5.175.161.3 kaleido.ai # covers www.kaleido.ai
+37.221.93.128 knowledge.broadcom.com
+5.175.161.3 labs.google
+5.175.161.40 labs.google.com
+37.221.93.128 labstailwind.pa.googleapis.com
+45.13.237.213 last.fm # covers autodiscover.last.fm jira.last.fm s.last.fm saa.last.fm secure.last.fm shop.last.fm store.last.fm support.last.fm wiki.last.fm www.last.fm
+5.175.161.40 lego.com # covers www.lego.com
+45.13.237.213 linear.app # covers client-api.linear.app constellation.linear.app public.linear.app s.linear.app static.linear.app uploads.linear.app www.linear.app
+5.175.161.40 linguee.com # covers www.linguee.com
+37.221.93.128 lookerstudio.google.com
+45.13.237.213 m3u.in # covers www.m3u.in
+45.13.237.213 madmapper.com # covers www.madmapper.com
+45.13.237.213 make.com # covers www.make.com
+5.175.161.40 makersuite.google.com
+5.175.161.3 makita.ca # covers www.makita.ca
+45.13.237.213 makita.cl # covers www.makita.cl
+37.221.93.141 makita.co.nz # covers www.makita.co.nz
+45.13.237.213 makita.com.au # covers www.makita.com.au
+45.13.237.213 makita.com.kh
+45.13.237.213 makita.com.tw # covers www.makita.com.tw
+45.13.237.213 makita.sk # covers www.makita.sk
+45.13.237.213 makita.ua # covers www.makita.ua
+37.221.93.128 makitalatinamerica.com # covers www.makitalatinamerica.com
+5.175.161.3 malwarebytes.com # covers www.malwarebytes.com
+45.13.237.213 manus.im # covers api.manus.im www.manus.im
+45.13.237.213 manybooks.net # covers www.manybooks.net
+37.221.93.128 marketplace.cursorapi.com
+2.27.118.34 matchmaking.stumbleguys.com
+5.175.161.40 mediaexpert.pl # covers www.mediaexpert.pl
+45.13.237.213 mediamarkt.pl # covers www.mediamarkt.pl
+45.13.237.213 meta.ai # covers www.meta.ai
+37.221.93.141 microcenter.com # covers www.microcenter.com
+5.175.161.3 microchip.com # covers www.microchip.com
+45.13.237.213 minicircuits.com # covers www.minicircuits.com
+45.13.237.213 miro.com # covers www.miro.com
+37.221.93.128 misterfpga.org # covers www.misterfpga.org
+45.13.237.213 modivo.pl # covers www.modivo.pl
+5.175.161.3 mongodb.com # covers api.blue.mongodb.com webassets.mongodb.com www.mongodb.com
+5.175.161.40 monica.im # covers www.monica.im
+37.221.93.128 mouser.com # covers www.mouser.com
+45.13.237.213 myjetbrains.com # covers www.myjetbrains.com
+37.221.93.141 n8n.cloud # covers www.n8n.cloud
+45.13.237.213 naukimg.com # covers arabicstatic.naukimg.com autodiscover.naukimg.com bms.naukimg.com css.naukimg.com img.naukimg.com js.naukimg.com np.naukimg.com p.naukimg.com static.naukimg.com suggest.naukimg.com suggestlg.naukimg.com www.naukimg.com
+37.221.93.141 naukri.com # covers aeronube.csm.naukri.com apis.naukri.com apply.naukri.com applyintegration.naukri.com assessment.nc.naukri.com assessments.naukri.com assessments.nc.naukri.com assets.staging.assessment.nc.naukri.com autodiscover.csm.naukri.com autodiscover.login.recruit.naukri.com autodiscover.naukri.com autodiscover.rms.naukri.com avasin.naukri.com blogs.naukri.com careernavigator.naukri.com careers.naukri.com careersite.naukri.com careersite.secure.naukri.com careersitescdn.naukri.com ccs-service.naukri.com chatbot.naukri.com chatclient-mobile.naukri.com chatclient.naukri.com cm.naukri.com communication.naukri.com companies.naukri.com company.naukri.com contentcdn.naukri.com contest.nc.naukri.com corp.naukri.com cps.naukri.com csm.naukri.com csmmail.naukri.com css.naukri.com dashboard.naukri.com delivery.naukri.com demologin.resdex.naukri.com demoresdex.naukri.com e-learning.naukri.com eapps.naukri.com echo.naukri.com engineering.naukri.com enterprise.naukri.com feeds.naukri.com fflms.naukri.com files.naukri.com filestg.naukri.com filevalidation.naukri.com fn-hackathon-ui.nc.naukri.com freesearch.naukri.com hiring.naukri.com images.naukri.com img.naukri.com in.naukri.com insights.naukri.com insightsapi.naukri.com jatracking.naukri.com jobfeeds.naukri.com jobs.naukri.com jobsearch.naukri.com jpreports.naukri.com js.naukri.com learning.naukri.com lg.naukri.com lms.naukri.com login.naukri.com login.recruit.naukri.com logs.naukri.com lyncdiscover.naukri.com m.naukri.com m102.naukri.com m75.naukri.com m83.naukri.com m9.naukri.com m91.naukri.com maestrorecruiter.naukri.com mail.naukri.com mailersystem.naukri.com mailtracking.naukri.com media.naukri.com mediacdn.naukri.com messenger.naukri.com mobile.naukri.com mscanus.naukri.com my.naukri.com naukriconfidential.naukri.com naukrihiringsuite.naukri.com naukrirecruiter.naukri.com nimg.naukri.com nmail-103-214-115-103.naukri.com nmail-103-214-115-125.naukri.com nmail-one03-two14-one15-one22.naukri.com nmail-one03-two14-one15-one24.naukri.com nmail-one03-two14-one15-one32.naukri.com nmail-one03-two14-one15-one33.naukri.com nmail-one03-two14-one15-one34.naukri.com nmail-one03-two14-one15-one38.naukri.com nmail-one03-two14-one15-one39.naukri.com nmail-one03-two14-one15-one93.naukri.com nmail-one03-two14-one15-one94.naukri.com nmail-one03-two14-one15-one95.naukri.com nmail-one03-two14-one15-one96.naukri.com nmail-one03-two14-one15-one97.naukri.com nmail-one03-two14-one15-two13.naukri.com nmail-one03-two14-one15-two14.naukri.com nmail-one03-two14-one15-two15.naukri.com nmail193.naukri.com nmail214.naukri.com noidacas01.naukri.com noinsight.naukri.com notifications.naukri.com onlinetest.nc.naukri.com p.naukri.com pg.naukri.com pop.naukri.com posting.naukri.com productupdates.naukri.com pt.naukri.com pulse.naukri.com rdxfootmark.naukri.com recruit.naukri.com recruiter.naukri.com recruiterfaq.naukri.com recruiters.naukri.com recruitersurvey.naukri.com recruiterzone.naukri.com referral.naukri.com resbilling.naukri.com resdex.base.naukri.com resdex.naukri.com resht.naukri.com resman.naukri.com response.naukri.com restservices.naukri.com resume.naukri.com resumepedia.naukri.com resumeservices.naukri.com rms.naukri.com rmsbulkupload.naukri.com rmsmail.naukri.com sip.naukri.com smtp.naukri.com staging.assessment.nc.naukri.com staging.contest.nc.naukri.com staging.fn-hackathon-ui.nc.naukri.com staging.onlinetest.nc.naukri.com static.naukri.com static.staging.assessment.nc.naukri.com stgmtstap.naukri.com stgmtstjs.naukri.com stgmtstmnj.naukri.com stgmtstwb.naukri.com stream.naukri.com streamgenai.naukri.com suggest-staging.naukri.com suggest.naukri.com suggestlg.naukri.com suggestor.naukri.com tableau.naukri.com target.naukri.com taxonomy-suggest.naukri.com trust.naukri.com verify.naukri.com vmscanus.naukri.com w.naukri.com w10.naukri.com w16.naukri.com w28.naukri.com w37.naukri.com w4.naukri.com w5.naukri.com webhooks.naukri.com webtracker.naukri.com whitehat.naukri.com wtg.csm.naukri.com www.e-learning.naukri.com www.echo.naukri.com www.learning.naukri.com www.naukri.com www.resume.naukri.com yahoo.naukri.com
+45.13.237.213 ndi.tv # covers www.ndi.tv
+45.13.237.213 ndi.video # covers www.ndi.video
+5.175.161.3 netapp.com # covers www.netapp.com
+5.175.161.40 ngc.nvidia.com
+45.13.237.213 notebook-pa.googleapis.com
+45.13.237.213 notebook.google # covers www.notebook.google
+45.13.237.213 notebook.google.com
+5.175.161.3 notebooklm-pa.googleapis.com
+37.221.93.141 notebooklm.google
+37.221.93.128 notebooklm.google.com
+5.175.161.40 notion.com # covers app.notion.com calendar.notion.com www.notion.com
+45.13.237.213 notion.so # covers calendar.notion.so www.notion.so
+130.255.77.28 ntc.party
+45.13.237.213 o.pki.goog
+45.13.237.213 oaistatic.com # covers cdn.oaistatic.com www.oaistatic.com
+45.13.237.213 oaiusercontent.com # covers files.oaiusercontent.com sdmntpritalynorth.oaiusercontent.com sdmntprnortheu.oaiusercontent.com sdmntprpolandcentral.oaiusercontent.com sdmntprukwest.oaiusercontent.com www.oaiusercontent.com
+37.221.93.128 octanorm.com # covers www.octanorm.com
+45.13.237.213 octanorm.expo.shop
+45.13.237.213 old.yummyani.me
+37.221.93.141 opal.google
+37.221.93.128 opal.google.com
+45.13.237.213 opal.withgoogle.com
+45.13.237.213 openai.com # covers android.chat.openai.com api.openai.com auth.openai.com auth0.openai.com bps.openai.com cdn.platform.openai.com developers.openai.com ios.chat.openai.com platform.openai.com tcr9i.chat.openai.com videos.openai.com www.openai.com
+45.13.237.213 opencode.ai # covers www.opencode.ai
+37.221.93.141 openrouter.ai # covers eu.openrouter.ai us.openrouter.ai www.openrouter.ai
+45.13.237.213 oracle.com # covers www.oracle.com
+45.13.237.213 padi.com # covers www.padi.com
+5.175.161.3 pandasecurity.com # covers www.pandasecurity.com
+37.221.93.128 panic.com # covers www.panic.com
+45.13.237.213 pcmag.com # covers www.pcmag.com
+45.13.237.213 people-pa.clients6.google.com
+45.13.237.213 pi.ai # covers www.pi.ai
+45.13.237.213 platform.parallel.ai
+37.221.93.128 play.date # covers www.play.date
+5.175.161.40 playground.google
+5.175.161.40 powertoolsuk.co.uk # covers www.powertoolsuk.co.uk
+45.13.237.213 ppkas.com # covers www.ppkas.com
+45.13.237.213 pr0gramm.com # covers www.pr0gramm.com
+45.13.237.213 proactivebackend-pa.googleapis.com
+37.221.93.141 profile.broadcom.com
+37.221.93.141 promods.net # covers www.promods.net
+5.175.161.3 prowlarr.servarr.com
+37.221.93.141 pubnubapi.com # covers www.pubnubapi.com
+45.13.237.213 pump.fun # covers frontend-api-v3.pump.fun images.pump.fun swap-api.pump.fun
+45.13.237.213 qoder.com # covers www.qoder.com
+45.13.237.213 qualtrics.com # covers www.qualtrics.com
+5.175.161.40 qwant.com # covers www.qwant.com
+45.13.237.213 remove.bg # covers www.remove.bg
+45.13.237.213 repo42.cursor.sh
+45.13.237.213 res.cloudinary.com
+37.221.93.141 reve.art # covers preview.reve.art www.reve.art
+37.221.93.141 reve.com # covers app.reve.com www.reve.com
+45.13.237.213 rewards.bing.com
+37.221.93.141 robinfrontend-pa.googleapis.com
+45.13.237.213 romsgames.net # covers www.romsgames.net
+45.13.237.213 scdn.co # covers accounts.scdn.co encore.scdn.co www-growth.scdn.co www.scdn.co
+5.175.161.40 scribd.com # covers www.scribd.com
+37.221.93.141 scribdassets.com # covers www.scribdassets.com
+37.221.93.141 se.com # covers www.se.com
+2.27.118.34 security.id.supercell.com
+37.221.93.128 securitytrails.com # covers www.securitytrails.com
+37.221.93.141 signaler-pa.clients6.google.com
+37.221.93.128 singlekey-id.com # covers www.singlekey-id.com
+45.13.237.213 sketchup.com # covers www.sketchup.com
+45.13.237.213 slack-core.com # covers www.slack-core.com
+5.175.161.3 slack-edge.com # covers www.slack-edge.com
+45.13.237.213 slack-files.com # covers www.slack-files.com
+45.13.237.213 slack-imgs.com # covers www.slack-imgs.com
+37.221.93.141 slack.com # covers www.slack.com
+45.13.237.213 slackb.com # covers www.slackb.com
+5.175.161.3 spotify.com # covers accounts.spotify.com aet.spotify.com api-partner.spotify.com api.spotify.com gew1-dealer.spotify.com gew1-spclient.spotify.com login5.spotify.com open.spotify.com spclient.wg.spotify.com www.spotify.com
+45.13.237.213 spotify.dev # covers www.spotify.dev
+5.175.161.3 squareup.com # covers www.squareup.com
+45.13.237.213 stitch.withgoogle.com
+2.27.118.34 store.supercell.com
+45.13.237.213 strava.com # covers blog.strava.com business.strava.com c.strava.com cdn-1.strava.com communityhub.strava.com content-a.strava.com dam.strava.com dev.strava.com email.strava.com email1.strava.com graphql.strava.com interview.strava.com links.strava.com metro.strava.com mi.strava.com promo.strava.com scim.strava.com shop.strava.com staging.strava.com status.strava.com store.strava.com stories.strava.com support.strava.com tiles.strava.com watch.samsung.strava.com www.blog.strava.com www.business.strava.com www.metro.strava.com www.promo.strava.com www.strava.com
+37.221.93.128 suggestqueries.google.com
+5.175.161.3 superpharm.eu # covers www.superpharm.eu
+37.221.93.141 superpharm.pl # covers www.superpharm.pl
+45.13.237.213 support.broadcom.com
+45.13.237.213 sydney.bing.com
+45.13.237.213 tableau.com # covers www.tableau.com
+37.221.93.128 ti.com # covers www.ti.com
+45.13.237.213 titlestorage.xboxlive.com
+45.13.237.213 tokenharbor.ai # covers www.tokenharbor.ai
+5.175.161.3 trae-api-sg.mchost.guru
+45.13.237.213 tria.ge # covers www.tria.ge
+5.175.161.40 trimble.com # covers id.trimble.com sketchup.trimble.com www.trimble.com
+37.221.93.141 trueachievements.com # covers www.trueachievements.com
+37.221.93.128 truthsocial.com # covers static-assets-1.truthsocial.com www.truthsocial.com
+45.13.237.213 tuta.com # covers app.test.tuta.com app.tuta.com mta-sts.test.tuta.com mta-sts.tuta.com pay.test.tuta.com pay.tuta.com status.tuta.com test.tuta.com w1.api.test.tuta.com w10.api.tuta.com w11.api.tuta.com w12.api.tuta.com w13.api.tuta.com w14.api.tuta.com w15.api.tuta.com w16.api.tuta.com w2.api.test.tuta.com w3.api.test.tuta.com w4.api.test.tuta.com w5.api.test.tuta.com w6.api.test.tuta.com w7.api.test.tuta.com w8.api.test.tuta.com w9.api.tuta.com www.tuta.com
+45.13.237.213 tutanota.com
+45.13.237.213 uainvest.com.ua # covers www.uainvest.com.ua
+5.175.161.3 ultimaker.com # covers www.ultimaker.com
+45.13.237.213 unscreen.com # covers www.unscreen.com
+5.175.161.40 us-asia.gcpp.cursor.sh
+5.175.161.40 us-eu.gcpp.cursor.sh
+5.175.161.40 us-only.gcpp.cursor.sh
+45.13.237.213 users.wix.com
+45.13.237.213 usher.ttvnw.net
+37.221.93.128 vipvera.com # covers www.vipvera.com
+5.175.161.40 w-x.co # covers www.w-x.co
+45.13.237.213 waa-pa.clients6.google.com
+45.13.237.213 wbagora.com # covers www.wbagora.com
+37.221.93.141 wbgames.com # covers www.wbgames.com
+37.221.93.141 weather.com # covers upsx.weather.com www.weather.com
+37.221.93.128 web-platform.io # covers cdn.web-platform.io www.web-platform.io
+5.175.161.40 web.archive.org
+45.13.237.213 webchannel-alkalimakersuite-pa.clients6.google.com
+37.221.93.128 weborama.nl # covers www.weborama.nl
+45.13.237.213 whimsical.com # covers www.whimsical.com
+45.13.237.213 windguru.cz # covers www.windguru.cz
+5.175.161.3 windsurf.com # covers marketplace.windsurf.com
+37.221.93.141 wise.com # covers www.wise.com
+5.175.161.3 ws.audioscrobbler.com
+5.175.161.3 wund.com # covers www.wund.com
+5.175.161.3 wunderground.com # covers www.wunderground.com
+45.13.237.213 wxug.com # covers www.wxug.com
+37.221.93.128 x.ai # covers accounts.x.ai api.x.ai assets.x.ai grok.x.ai www.x.ai
+5.175.161.40 xboxdesignlab.xbox.com
+45.13.237.213 xerox.com # covers www.xerox.com
+45.13.237.213 xiaomi.eu # covers www.xiaomi.eu
+37.221.93.128 yeggi.com # covers www.yeggi.com
+5.175.161.40 yupp.ai # covers www.yupp.ai
+45.13.237.213 zapier-deployment.com # covers www.zapier-deployment.com
+45.13.237.213 zapier.com # covers www.zapier.com
+
+# Previous DnsConf pairs eligible for removal during sync
+# retire 45.13.237.213 a-api.anthropic.com
+# retire 45.13.237.213 a-cdn.anthropic.com
+# retire 45.13.237.213 a-lemmy.fmhy.net
+# retire 45.13.237.213 ab.chatgpt.com
+# retire 45.13.237.213 account.jetbrains.com
+# retire 5.175.161.3 accounts.chaos.com
+# retire 45.13.237.213 accounts.scdn.co
+# retire 45.13.237.213 accounts.spotify.com
+# retire 5.175.161.40 accounts.x.ai
+# retire 45.13.237.213 aeronube.csm.naukri.com
+# retire 5.175.161.3 aet.spotify.com
+# retire 45.13.237.213 afcs.dellcdn.com
+# retire 5.175.161.40 agentn.api2.cursor.sh
+# retire 45.13.237.213 agentn.api3.cursor.sh
+# retire 45.13.237.213 agentn.api4.cursor.sh
+# retire 37.221.93.141 agentn.api5.cursor.sh
+# retire 37.221.93.141 agentn.global.api2.cursor.sh
+# retire 45.13.237.213 agentn.global.api3.cursor.sh
+# retire 45.13.237.213 agentn.global.api4.cursor.sh
+# retire 5.175.161.40 agentn.global.api5.cursor.sh
+# retire 45.13.237.213 android.chat.openai.com
+# retire 5.175.161.40 api-free.deepl.com
+# retire 37.221.93.128 api-partner.spotify.com
+# retire 5.175.161.3 api.anthropic.com
+# retire 45.13.237.213 api.blue.mongodb.com
+# retire 45.13.237.213 api.cerebras.ai
+# retire 45.13.237.213 api.claude.ai
+# retire 37.221.93.141 api.claude.com
+# retire 5.175.161.40 api.console.anthropic.com
+# retire 45.13.237.213 api.deepl.com
+# retire 45.13.237.213 api.elevenlabs.io
+# retire 5.175.161.3 api.fmhy.net
+# retire 5.175.161.40 api.manus.im
+# retire 45.13.237.213 api.openai.com
+# retire 37.221.93.141 api.spotify.com
+# retire 5.175.161.3 api.us.elevenlabs.io
+# retire 45.13.237.213 api.x.ai
+# retire 5.175.161.40 apis.naukri.com
+# retire 5.175.161.3 app.notion.com
+# retire 45.13.237.213 app.reve.com
+# retire 45.13.237.213 app.test.tuta.com
+# retire 37.221.93.128 app.tuta.com
+# retire 45.13.237.213 apply.naukri.com
+# retire 45.13.237.213 applyintegration.naukri.com
+# retire 45.13.237.213 arabicstatic.naukimg.com
+# retire 45.13.237.213 assessment.nc.naukri.com
+# retire 37.221.93.128 assessments.naukri.com
+# retire 5.175.161.3 assessments.nc.naukri.com
+# retire 45.13.237.213 assets-configurator.chess.com
+# retire 45.13.237.213 assets-proxy.anthropic.com
+# retire 5.175.161.3 assets.grok.com
+# retire 45.13.237.213 assets.staging.assessment.nc.naukri.com
+# retire 5.175.161.3 assets.x.ai
+# retire 37.221.93.141 auth.anthropic.com
+# retire 5.175.161.3 auth.deepl.com
+# retire 45.13.237.213 auth.openai.com
+# retire 45.13.237.213 auth0.openai.com
+# retire 37.221.93.128 autodiscover.csm.naukri.com
+# retire 45.13.237.213 autodiscover.last.fm
+# retire 45.13.237.213 autodiscover.login.recruit.naukri.com
+# retire 5.175.161.3 autodiscover.naukimg.com
+# retire 5.175.161.3 autodiscover.naukri.com
+# retire 5.175.161.3 autodiscover.rms.naukri.com
+# retire 5.175.161.3 avasin.naukri.com
+# retire 45.13.237.213 backend.deepl.com
+# retire 5.175.161.40 blog.strava.com
+# retire 45.13.237.213 blogs.naukri.com
+# retire 37.221.93.141 bms.naukimg.com
+# retire 5.175.161.40 bps.openai.com
+# retire 45.13.237.213 business.strava.com
+# retire 45.13.237.213 c.strava.com
+# retire 45.13.237.213 calendar.notion.com
+# retire 45.13.237.213 calendar.notion.so
+# retire 37.221.93.128 careernavigator.naukri.com
+# retire 37.221.93.128 careers.naukri.com
+# retire 45.13.237.213 careersite.naukri.com
+# retire 5.175.161.3 careersite.secure.naukri.com
+# retire 45.13.237.213 careersitescdn.naukri.com
+# retire 5.175.161.3 cat.fmhy.net
+# retire 5.175.161.40 ccs-service.naukri.com
+# retire 5.175.161.3 cdn-1.strava.com
+# retire 37.221.93.141 cdn.oaistatic.com
+# retire 37.221.93.141 cdn.platform.openai.com
+# retire 45.13.237.213 cdn.web-platform.io
+# retire 37.221.93.128 chatbot.naukri.com
+# retire 45.13.237.213 chatclient-mobile.naukri.com
+# retire 45.13.237.213 chatclient.naukri.com
+# retire 45.13.237.213 checkout.www.deepl.com
+# retire 45.13.237.213 clearance.deepl.com
+# retire 37.221.93.128 client-api.linear.app
+# retire 45.13.237.213 cm.naukri.com
+# retire 45.13.237.213 communication.naukri.com
+# retire 45.13.237.213 community-auth.deepl.com
+# retire 45.13.237.213 communityhub.strava.com
+# retire 45.13.237.213 companies.naukri.com
+# retire 37.221.93.128 company.naukri.com
+# retire 45.13.237.213 consent.badoo.com
+# retire 37.221.93.128 console.anthropic.com
+# retire 37.221.93.141 constellation.linear.app
+# retire 37.221.93.141 content-a.strava.com
+# retire 37.221.93.141 content-management-files.canva.com
+# retire 5.175.161.3 contentcdn.naukri.com
+# retire 45.13.237.213 contest.nc.naukri.com
+# retire 5.175.161.3 corp.naukri.com
+# retire 5.175.161.3 cps.naukri.com
+# retire 5.175.161.40 csm.naukri.com
+# retire 37.221.93.141 csmmail.naukri.com
+# retire 5.175.161.40 css.naukimg.com
+# retire 37.221.93.128 css.naukri.com
+# retire 37.221.93.128 dam.strava.com
+# retire 45.13.237.213 dashboard.naukri.com
+# retire 37.221.93.141 datalore.jetbrains.com
+# retire 5.175.161.3 dds.dell.com
+# retire 45.13.237.213 delivery.naukri.com
+# retire 5.175.161.40 demologin.resdex.naukri.com
+# retire 45.13.237.213 demoresdex.naukri.com
+# retire 37.221.93.141 dev.strava.com
+# retire 45.13.237.213 developers.deepl.com
+# retire 45.13.237.213 developers.openai.com
+# retire 45.13.237.213 dict-audio.deepl.com
+# retire 45.13.237.213 dict.deepl.com
+# retire 45.13.237.213 download.jetbrains.com
+# retire 45.13.237.213 downloads.claude.ai
+# retire 45.13.237.213 downloads.cursor.com
+# retire 37.221.93.128 dynmap.fmhy.net
+# retire 45.13.237.213 e-learning.naukri.com
+# retire 45.13.237.213 eapps.naukri.com
+# retire 45.13.237.213 echo.naukri.com
+# retire 45.13.237.213 eleven-public-cdn.elevenlabs.io
+# retire 45.13.237.213 email.strava.com
+# retire 45.13.237.213 email1.strava.com
+# retire 45.13.237.213 encore.scdn.co
+# retire 37.221.93.128 engineering.naukri.com
+# retire 37.221.93.128 enterprise.naukri.com
+# retire 45.13.237.213 errortracking.deepl.com
+# retire 37.221.93.141 eu.openrouter.ai
+# retire 37.221.93.128 eu1.ecdn2.badoocdn.com
+# retire 37.221.93.128 experimentation-grpc.deepl.com
+# retire 45.13.237.213 experimentation.deepl.com
+# retire 45.13.237.213 feeds.naukri.com
+# retire 5.175.161.3 fflms.naukri.com
+# retire 45.13.237.213 files.naukri.com
+# retire 5.175.161.40 files.oaiusercontent.com
+# retire 45.13.237.213 filestg.naukri.com
+# retire 5.175.161.40 filevalidation.naukri.com
+# retire 45.13.237.213 fn-hackathon-ui.nc.naukri.com
+# retire 45.13.237.213 freesearch.naukri.com
+# retire 5.175.161.40 frontend-api-v3.pump.fun
+# retire 5.175.161.3 gew1-dealer.spotify.com
+# retire 45.13.237.213 gew1-spclient.spotify.com
+# retire 5.175.161.3 graphql.strava.com
+# retire 45.13.237.213 grok.x.ai
+# retire 45.13.237.213 gtm.deepl.com
+# retire 5.175.161.40 guides.fmhy.lol
+# retire 45.13.237.213 help.elevenlabs.io
+# retire 45.13.237.213 hiring.naukri.com
+# retire 45.13.237.213 home.deepl.com
+# retire 5.175.161.40 hs.deepl.com
+# retire 37.221.93.141 i.dell.com
+# retire 37.221.93.128 i.fmhy.net
+# retire 45.13.237.213 id.trimble.com
+# retire 45.13.237.213 images.naukri.com
+# retire 5.175.161.3 images.pump.fun
+# retire 5.175.161.40 img.naukimg.com
+# retire 37.221.93.128 img.naukri.com
+# retire 45.13.237.213 in.naukri.com
+# retire 37.221.93.128 inference.codeium.com
+# retire 5.175.161.40 insights.naukri.com
+# retire 45.13.237.213 insightsapi.naukri.com
+# retire 5.175.161.40 internal.deepl.com
+# retire 37.221.93.141 interview.strava.com
+# retire 5.175.161.40 ios.chat.openai.com
+# retire 37.221.93.141 ita-free.app.deepl.com
+# retire 45.13.237.213 ita-free.www.deepl.com
+# retire 5.175.161.3 jatracking.naukri.com
+# retire 45.13.237.213 jira.last.fm
+# retire 45.13.237.213 jobfeeds.naukri.com
+# retire 37.221.93.141 jobs.deepl.com
+# retire 45.13.237.213 jobs.naukri.com
+# retire 37.221.93.128 jobsearch.naukri.com
+# retire 45.13.237.213 jpreports.naukri.com
+# retire 5.175.161.40 js.naukimg.com
+# retire 37.221.93.128 js.naukri.com
+# retire 45.13.237.213 learning.naukri.com
+# retire 45.13.237.213 lemmy.fmhy.net
+# retire 5.175.161.40 lg.naukri.com
+# retire 45.13.237.213 links.strava.com
+# retire 45.13.237.213 lms.naukri.com
+# retire 37.221.93.128 login-wall.deepl.com
+# retire 5.175.161.40 login.naukri.com
+# retire 5.175.161.40 login.recruit.naukri.com
+# retire 37.221.93.141 login5.spotify.com
+# retire 37.221.93.128 logs.naukri.com
+# retire 45.13.237.213 lyncdiscover.naukri.com
+# retire 37.221.93.141 m-lemmy.fmhy.net
+# retire 45.13.237.213 m.naukri.com
+# retire 45.13.237.213 m102.naukri.com
+# retire 37.221.93.128 m75.naukri.com
+# retire 45.13.237.213 m83.naukri.com
+# retire 45.13.237.213 m9.naukri.com
+# retire 5.175.161.40 m91.naukri.com
+# retire 37.221.93.141 maestrorecruiter.naukri.com
+# retire 37.221.93.128 mail.naukri.com
+# retire 5.175.161.40 mailersystem.naukri.com
+# retire 37.221.93.141 mailtracking.naukri.com
+# retire 5.175.161.40 marketplace.windsurf.com
+# retire 45.13.237.213 media.naukri.com
+# retire 37.221.93.128 mediacdn.naukri.com
+# retire 37.221.93.128 messenger.naukri.com
+# retire 5.175.161.3 metro.strava.com
+# retire 37.221.93.128 mi.strava.com
+# retire 45.13.237.213 mobile.naukri.com
+# retire 45.13.237.213 mscanus.naukri.com
+# retire 45.13.237.213 mta-sts.test.tuta.com
+# retire 45.13.237.213 mta-sts.tuta.com
+# retire 45.13.237.213 my.chaos.com
+# retire 45.13.237.213 my.naukri.com
+# retire 45.13.237.213 naukriconfidential.naukri.com
+# retire 45.13.237.213 naukrihiringsuite.naukri.com
+# retire 5.175.161.40 naukrirecruiter.naukri.com
+# retire 45.13.237.213 nexus.dell.com
+# retire 45.13.237.213 nimg.naukri.com
+# retire 37.221.93.128 nmail-103-214-115-103.naukri.com
+# retire 37.221.93.128 nmail-103-214-115-125.naukri.com
+# retire 5.175.161.40 nmail-one03-two14-one15-one22.naukri.com
+# retire 5.175.161.40 nmail-one03-two14-one15-one24.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-one32.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-one33.naukri.com
+# retire 37.221.93.141 nmail-one03-two14-one15-one34.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-one38.naukri.com
+# retire 5.175.161.40 nmail-one03-two14-one15-one39.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-one93.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-one94.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-one95.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-one96.naukri.com
+# retire 5.175.161.40 nmail-one03-two14-one15-one97.naukri.com
+# retire 37.221.93.128 nmail-one03-two14-one15-two13.naukri.com
+# retire 45.13.237.213 nmail-one03-two14-one15-two14.naukri.com
+# retire 5.175.161.40 nmail-one03-two14-one15-two15.naukri.com
+# retire 45.13.237.213 nmail193.naukri.com
+# retire 5.175.161.3 nmail214.naukri.com
+# retire 5.175.161.40 noidacas01.naukri.com
+# retire 5.175.161.40 noinsight.naukri.com
+# retire 5.175.161.3 notifications.naukri.com
+# retire 37.221.93.141 np.naukimg.com
+# retire 5.175.161.3 old-lemmy.fmhy.net
+# retire 45.13.237.213 old.fmhy.net
+# retire 45.13.237.213 old.lemmy.fmhy.net
+# retire 45.13.237.213 oneshot-free.www.deepl.com
+# retire 5.175.161.3 onlinetest.nc.naukri.com
+# retire 45.13.237.213 op.fmhy.net
+# retire 45.13.237.213 open.spotify.com
+# retire 5.175.161.40 operator.chatgpt.com
+# retire 5.175.161.3 origin.cursor.com
+# retire 5.175.161.40 ott.deepl.com
+# retire 45.13.237.213 p-lemmy.fmhy.net
+# retire 5.175.161.3 p.naukimg.com
+# retire 5.175.161.3 p.naukri.com
+# retire 45.13.237.213 paste.fmhy.net
+# retire 45.13.237.213 pastes.fmhy.net
+# retire 5.175.161.3 pay.test.tuta.com
+# retire 37.221.93.141 pay.tuta.com
+# retire 45.13.237.213 payload.elevenlabs.io
+# retire 37.221.93.128 payment.deezer.com
+# retire 45.13.237.213 pg.naukri.com
+# retire 45.13.237.213 platform.claude.ai
+# retire 45.13.237.213 platform.claude.com
+# retire 5.175.161.40 platform.openai.com
+# retire 45.13.237.213 plugins.jetbrains.com
+# retire 37.221.93.128 pop.naukri.com
+# retire 45.13.237.213 posting.naukri.com
+# retire 5.175.161.3 preview.reve.art
+# retire 37.221.93.128 productupdates.naukri.com
+# retire 37.221.93.141 promo.strava.com
+# retire 5.175.161.3 pt.naukri.com
+# retire 5.175.161.3 public.linear.app
+# retire 45.13.237.213 pulse.naukri.com
+# retire 37.221.93.128 rdxfootmark.naukri.com
+# retire 37.221.93.141 recruit.naukri.com
+# retire 5.175.161.40 recruiter.naukri.com
+# retire 45.13.237.213 recruiterfaq.naukri.com
+# retire 45.13.237.213 recruiters.naukri.com
+# retire 45.13.237.213 recruitersurvey.naukri.com
+# retire 45.13.237.213 recruiterzone.naukri.com
+# retire 45.13.237.213 redlib.fmhy.net
+# retire 45.13.237.213 referral.naukri.com
+# retire 5.175.161.40 resbilling.naukri.com
+# retire 45.13.237.213 resdex.base.naukri.com
+# retire 45.13.237.213 resdex.naukri.com
+# retire 37.221.93.141 resht.naukri.com
+# retire 45.13.237.213 resman.naukri.com
+# retire 45.13.237.213 response.naukri.com
+# retire 37.221.93.141 restservices.naukri.com
+# retire 45.13.237.213 resume.naukri.com
+# retire 45.13.237.213 resumepedia.naukri.com
+# retire 45.13.237.213 resumeservices.naukri.com
+# retire 45.13.237.213 rms.naukri.com
+# retire 37.221.93.128 rmsbulkupload.naukri.com
+# retire 45.13.237.213 rmsmail.naukri.com
+# retire 5.175.161.40 s-cdn.anthropic.com
+# retire 45.13.237.213 s.deepl.com
+# retire 37.221.93.128 s.last.fm
+# retire 5.175.161.3 s.linear.app
+# retire 45.13.237.213 saa.last.fm
+# retire 5.175.161.40 scim.strava.com
+# retire 37.221.93.128 sdmntpritalynorth.oaiusercontent.com
+# retire 45.13.237.213 sdmntprnortheu.oaiusercontent.com
+# retire 45.13.237.213 sdmntprpolandcentral.oaiusercontent.com
+# retire 37.221.93.141 sdmntprukwest.oaiusercontent.com
+# retire 5.175.161.40 searx.fmhy.net
+# retire 45.13.237.213 secure.last.fm
+# retire 5.175.161.3 server.codeium.com
+# retire 5.175.161.40 shield.deepl.com
+# retire 45.13.237.213 shop.last.fm
+# retire 45.13.237.213 shop.strava.com
+# retire 45.13.237.213 sip.naukri.com
+# retire 45.13.237.213 sketchup.trimble.com
+# retire 45.13.237.213 sl.deepl.com
+# retire 5.175.161.3 smtp.naukri.com
+# retire 45.13.237.213 spclient.wg.spotify.com
+# retire 45.13.237.213 ssooauth.chaos.com
+# retire 5.175.161.3 staging.assessment.nc.naukri.com
+# retire 5.175.161.3 staging.contest.nc.naukri.com
+# retire 37.221.93.128 staging.fn-hackathon-ui.nc.naukri.com
+# retire 45.13.237.213 staging.onlinetest.nc.naukri.com
+# retire 5.175.161.3 staging.strava.com
+# retire 5.175.161.3 static-assets-1.truthsocial.com
+# retire 37.221.93.128 static.canva.com
+# retire 5.175.161.3 static.deepl.com
+# retire 45.13.237.213 static.linear.app
+# retire 45.13.237.213 static.naukimg.com
+# retire 37.221.93.141 static.naukri.com
+# retire 5.175.161.3 static.staging.assessment.nc.naukri.com
+# retire 37.221.93.128 stats.fmhy.net
+# retire 45.13.237.213 statsig.anthropic.com
+# retire 45.13.237.213 status.anthropic.com
+# retire 37.221.93.141 status.fmhy.net
+# retire 37.221.93.128 status.strava.com
+# retire 37.221.93.141 status.tuta.com
+# retire 37.221.93.128 stgmtstap.naukri.com
+# retire 5.175.161.40 stgmtstjs.naukri.com
+# retire 45.13.237.213 stgmtstmnj.naukri.com
+# retire 45.13.237.213 stgmtstwb.naukri.com
+# retire 37.221.93.128 store.last.fm
+# retire 45.13.237.213 store.strava.com
+# retire 5.175.161.3 stories.strava.com
+# retire 45.13.237.213 stream.camelai.com
+# retire 45.13.237.213 stream.naukri.com
+# retire 5.175.161.3 streamgenai.naukri.com
+# retire 45.13.237.213 streams.bestbuy.com
+# retire 45.13.237.213 sub.whoogle.fmhy.net
+# retire 45.13.237.213 suggest-staging.naukri.com
+# retire 45.13.237.213 suggest.naukimg.com
+# retire 37.221.93.141 suggest.naukri.com
+# retire 5.175.161.40 suggestlg.naukimg.com
+# retire 37.221.93.128 suggestlg.naukri.com
+# retire 45.13.237.213 suggestor.naukri.com
+# retire 5.175.161.40 support.anthropic.com
+# retire 37.221.93.128 support.deepl.com
+# retire 5.175.161.40 support.last.fm
+# retire 37.221.93.141 support.strava.com
+# retire 45.13.237.213 swap-api.pump.fun
+# retire 37.221.93.141 tableau.naukri.com
+# retire 45.13.237.213 target.naukri.com
+# retire 5.175.161.3 taxonomy-suggest.naukri.com
+# retire 45.13.237.213 tcr9i.chat.openai.com
+# retire 45.13.237.213 test.tuta.com
+# retire 5.175.161.3 tiles.strava.com
+# retire 37.221.93.141 trust.naukri.com
+# retire 37.221.93.128 try.elevenlabs.io
+# retire 37.221.93.141 ui.fmhy.net
+# retire 37.221.93.141 unleash.codeium.com
+# retire 37.221.93.128 uploads.linear.app
+# retire 45.13.237.213 upsx.weather.com
+# retire 5.175.161.3 us.openrouter.ai
+# retire 45.13.237.213 verify.naukri.com
+# retire 45.13.237.213 videos.openai.com
+# retire 45.13.237.213 vmscanus.naukri.com
+# retire 5.175.161.40 w.deepl.com
+# retire 5.175.161.40 w.naukri.com
+# retire 5.175.161.3 w1.api.test.tuta.com
+# retire 45.13.237.213 w10.api.tuta.com
+# retire 5.175.161.3 w10.naukri.com
+# retire 45.13.237.213 w11.api.tuta.com
+# retire 5.175.161.3 w12.api.tuta.com
+# retire 45.13.237.213 w13.api.tuta.com
+# retire 37.221.93.141 w14.api.tuta.com
+# retire 5.175.161.40 w15.api.tuta.com
+# retire 45.13.237.213 w16.api.tuta.com
+# retire 45.13.237.213 w16.naukri.com
+# retire 45.13.237.213 w2.api.test.tuta.com
+# retire 45.13.237.213 w28.naukri.com
+# retire 45.13.237.213 w3.api.test.tuta.com
+# retire 37.221.93.128 w37.naukri.com
+# retire 45.13.237.213 w4.api.test.tuta.com
+# retire 37.221.93.128 w4.naukri.com
+# retire 45.13.237.213 w5.api.test.tuta.com
+# retire 5.175.161.3 w5.naukri.com
+# retire 37.221.93.128 w6.api.test.tuta.com
+# retire 37.221.93.141 w7.api.test.tuta.com
+# retire 5.175.161.40 w8.api.test.tuta.com
+# retire 37.221.93.141 w9.api.tuta.com
+# retire 5.175.161.3 watch.samsung.strava.com
+# retire 37.221.93.128 web-backend.codeium.com
+# retire 45.13.237.213 webassets.mongodb.com
+# retire 37.221.93.141 webhooks.naukri.com
+# retire 45.13.237.213 webrtc.chatgpt.com
+# retire 37.221.93.141 webtracker.naukri.com
+# retire 37.221.93.141 whitehat.naukri.com
+# retire 45.13.237.213 whoogle.fmhy.net
+# retire 45.13.237.213 wiki.last.fm
+# retire 5.175.161.3 windsurf-stable.codeium.com
+# retire 37.221.93.141 windsurf-telemetry.codeium.com
+# retire 45.13.237.213 write-free.www.deepl.com
+# retire 45.13.237.213 wtg.csm.naukri.com
+# retire 37.221.93.141 www-growth.scdn.co
+# retire 45.13.237.213 xgpuweb.gssv-play-prod.xboxlive.com
+# retire 5.175.161.40 xgpuwebf2p.gssv-play-prod.xboxlive.com
+# retire 5.175.161.40 xsts.auth.xboxlive.com
+# retire 5.175.161.3 yahoo.naukri.com
