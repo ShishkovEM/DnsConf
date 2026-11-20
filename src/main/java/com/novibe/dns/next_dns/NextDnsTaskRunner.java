@@ -1,6 +1,7 @@
 package com.novibe.dns.next_dns;
 
 import com.novibe.common.DnsTaskRunner;
+import com.novibe.common.exception.ProfileSetupException;
 import com.novibe.common.base_structures.BypassRoute;
 import com.novibe.common.util.DonorDnsUtils;
 import com.novibe.common.util.EnvParser;
@@ -15,6 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 import static com.novibe.common.config.EnvironmentVariables.BLOCK;
+import static com.novibe.common.config.EnvironmentVariables.EXCLUDE_REDIRECT;
 import static com.novibe.common.config.EnvironmentVariables.REDIRECT;
 import static java.util.Objects.nonNull;
 
@@ -53,7 +55,14 @@ public class NextDnsTaskRunner extends DnsTaskRunner {
         }
 
         List<String> rewriteSources = EnvParser.parse(REDIRECT);
-        if (!rewriteSources.isEmpty()) {
+        if (rewriteSources.contains(GeoHideSnapshot.FILE)) {
+            if (rewriteSources.size() != 1 || dnsProfile.donorDns() != null || !EnvParser.parse(EXCLUDE_REDIRECT).isEmpty()) {
+                throw new ProfileSetupException("The compact GeoHide file requires a single source and empty DONOR_DNS and EXCLUDE_REDIRECT");
+            }
+            GeoHideSnapshot snapshot = GeoHideSnapshot.read();
+            var missing = nextDnsRewriteService.prepareCompact(snapshot.active(), snapshot.retired(), snapshot.names());
+            nextDnsRewriteService.saveRewrites(missing);
+        } else if (!rewriteSources.isEmpty()) {
 
             Log.step("Obtain rewrite lists from %s sources".formatted(rewriteSources.size()));
             List<BypassRoute> overrides = overrideListsLoader.fetchWebsites(rewriteSources);
